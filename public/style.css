@@ -1,0 +1,47 @@
+#welcome {
+    color: green
+}
+
+#resttitle {
+    font-family: monospace;
+    color: green;
+    text-align: center left;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+#restname {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#mainbody {
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-tea-restaurant-menu-background-material-image_159445.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: cover;
+}
+
+
+#welcomebtn {
+    margin-left: 50px;
+}
+
+.block {
+width: 30vw;
+float: left;
+}
+
+.big-block {
+width: 60vw;
+float: left;
+}
+
+
+
+.item-img {
+width: 230px;
+height: 230px;
+float: left;
+padding: 0 10px;
+}
+

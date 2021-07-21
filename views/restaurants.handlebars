@@ -1,0 +1,14 @@
+
+<section>
+	<a class="btn btn-primary btn-sm" href="/index.html">Home</a>
+	<a class="btn btn-primary btn-sm" href="/new-restaurant-form">Add New Restaurant</a>
+	<h1 id='resttitle'>We have {{restaurants.length}} restaurants</h1>
+	{{#each restaurants}} 
+		<article class="clearfix item-container block">
+			<h2 id='restname'>{{this.name}}</h2>
+            <img class="item-img" src="{{image}}" />
+			<a class="btn btn-success" href="/restaurants/{{id}}">View Restaurant</a>
+		</article>
+		{{/each}}
+
+	</section> 
